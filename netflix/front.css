@@ -1,0 +1,439 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Halvetica Neue', Halvetica, Arial, sans-serif;
+}
+
+.container1::before
+{
+    content: "";
+    background: url(../netflix/netimg/netflix.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.navbar1
+{
+    height: 76px;
+    display: flex;
+
+}
+
+.left1
+{
+    height: 100%;
+    display: flex;
+    float: left;
+}
+
+.img1
+{
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    width: 150px;
+
+}
+
+.right1
+{
+    display: flex;
+    height: 100px;
+    float: right;
+    position: absolute;
+    right: 50px;
+    
+}
+
+.language1
+{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 7px 10px;
+    margin-right: 15px;
+    color: white;
+    background:none;
+    cursor: pointer;
+
+}
+
+option
+{
+    background-color: grey;
+}
+
+button
+{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 7px 17px ;
+    background: #e50914;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: lavenderblush;
+
+}
+
+.tittle1
+{
+    padding: 70px 45px;
+
+
+}
+
+.content1
+{
+    width: 950px;
+    margin: auto;
+    padding: 75px 0;
+    text-align: center;
+}
+
+h1
+{
+    width: 650px;
+    margin: auto;
+    font-size: 3.1rem;
+    text-align: center;
+
+}
+
+h2
+{
+    width: 650px;
+    margin: auto;
+    font-size: 1.6rem;
+    text-align: center;
+
+}
+
+form h3
+{
+    font-size: 1rem;
+    margin: 18px 0;
+    text-align: center;
+}
+
+.email
+{
+    width: 1000px;
+    margin: auto;
+
+}
+
+input
+{
+    height: 60px;
+    width: 450px;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    outline: none;
+
+}
+
+.b1
+{
+    margin: auto;
+    height: 60px;
+    width: 180px;
+    text-align: center;
+    justify-content:center;
+    font-size: 20px;
+    padding: 7px 17px;
+    background: #e50914;
+    cursor: pointer;
+    outline: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border: none;
+    margin-left: -5px;
+}
+
+.b1:hover
+{
+    background-color: #f40612;
+
+}
+
+.b1 a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.flex_container1
+{   
+    display: grid;
+    width: 100%;
+    height: 500px;
+    grid-template-columns: auto auto;
+    background-color: black;
+    color: #ddd;
+    justify-content:center;
+    padding: 50px;
+    border-top: 7px solid rgb(63, 62, 62) ;
+}
+.text
+{
+    padding-top: 100px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin-left: 45px;
+}
+.tv
+{
+    width: 600px;
+    height: 400px;
+    background-image: url("../netflix/netimg/get-the-latest_f4ft.1024.gif");
+    background-size: 470px 250px ;
+    background-repeat: no-repeat;
+    background-position-x: 88px;
+    background-position-y: 90px;
+}
+
+
+.a1
+{
+    text-align: left ;
+    justify-content: left;
+    width: 580px;
+}
+.a2
+{
+    text-align: left ;
+    justify-content: left;
+    width: 500px;
+    margin-left: 0px;
+    
+}
+.a3
+{
+    text-align: left ;
+    justify-content: left;
+    width: 550px;
+    margin-left: 0px 
+}
+.a4
+{
+    text-align:left ;
+    justify-content: left;
+    width: 550px;
+    margin-left: 0px 
+}
+
+
+.flex_container2
+{   
+    display: grid;
+    width: 100%;
+    height: 500px;
+    grid-template-columns: auto auto;
+    background-color: black;
+    color: #ddd;
+    justify-content:center;
+    padding: 50px;
+    padding-left: 0px;
+    border-top: 7px solid rgb(63, 62, 62) ;
+}
+.mobile
+{
+    width: 600px;
+    height: 400px;
+}
+.text2
+{
+    padding-top: 100px;
+    margin-right: 40px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.flex_container3
+{   
+    display: grid;
+    width: 100%;
+    height: 500px;
+    grid-template-columns: auto auto;
+    background-color: black;
+    color:#ddd;
+    justify-content:center;
+    
+    padding: 50px;
+    border-top: 7px solid rgb(63, 62, 62) ;
+}
+.text3
+{
+    padding-top: 100px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin-left: 45px;
+}
+.tablet
+{
+    width: 600px;
+    height: 400px;
+    background-image: url("../netflix/netimg/6a2b261728dc6d7a3f46b690eb1955b9.gif");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 30px;
+    background-size: 370px 190px;
+}
+
+.flex_container4
+{   
+    display: grid;
+    width: 100%;
+    height: 500px;
+    grid-template-columns: auto auto;
+    background-color: black;
+    color: #ddd;
+    justify-content:center;
+    padding: 50px;
+    padding-left: 0px;
+    border-top: 7px solid rgb(63, 62, 62) ;
+    /* border-bottom: 7px solid rgb(63, 62, 62) ; */
+}
+.kids
+{
+    width: 580px;
+    height: 430px;
+    margin-left: 100px;
+}
+.text4
+{
+    padding-top: 100px;
+    margin-right: 20px;
+    margin-left: 70px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.accordian1
+{   
+    /* width: 100%; */
+    /* height: 600px; */
+    background-color: black;
+    color: #ddd;  
+    border-top: 7px solid rgb(63, 62, 62) ;
+    margin-bottom: 20px;
+}
+.fre
+{
+    width: 800px;
+    padding: 50px;
+    justify-content:center;
+}
+.ahb
+{
+    background-color:gray;
+    color: white;
+    font-size: xx-large;
+    font-weight: 800; 
+    margin-top:5px;
+    margin-bottom: 50px;
+    /* height: 70px; */
+}
+
+.email2
+{
+    margin-left: 350px;
+}
+
+.footer
+{   
+    display: grid;
+    width: 100%;
+    height: 450px;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    background-color: black;
+    color: #757575;
+    border-top: 7px solid rgb(63, 62, 62) ;
+    list-style-type: none;
+    font-size: small;
+    line-height: 35px;
+    padding-top: 80px;
+    padding-left: 220px;
+}
+
+.help_center , .account, .Media_Centre
+{
+    padding-top: 50px;
+    height: 70px;
+    margin-left: -50px;
+}
+
+li a
+{
+    color: #757575 ;
+
+}
+
+li a:hover
+{
+    text-decoration: underline;
+    color:#757575 ;
+}
+p a
+{
+    color: #757575 ;
+}
+
+p a:hover
+{
+    text-decoration: underline;
+    color:#757575 ;
+}
+
+.right2
+{
+    margin-top: -130px;
+    margin-left: 190px;
+    margin-bottom: 40px;
+}
+.language2
+{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 7px 10px;
+    color: #757575;
+    background:none;
+    cursor: pointer;
+    width: 130px;
+}
+
+.o1
+{
+    background-color: black;
+}
+h6
+{
+    color: #757575 ;
+    margin-left: 210px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
